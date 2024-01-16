@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.bp.mapper.UserMapper">
+
+	<insert id="signup" parameterType="User">
+	insert into user (user_name,email,pwd,addr,tel,sub)
+	values(#{user_name},#{email},#{pwd},#{addr},#{tel},#{sub})
+	</insert>
+	
+	<select id="idcheck" resultType="int">
+	select count(*)from user where USER_ID=#{userId}
+	</select>
+	
+</mapper>

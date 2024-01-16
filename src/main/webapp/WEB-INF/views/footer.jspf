@@ -1,0 +1,217 @@
+    <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+    <!-- Footer Start -->
+    <div class="container-fluid bg-light mt-5 py-5">
+        <div class="container pt-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-uppercase border-start border-5 border-primary ps-3 mb-4">Get In Touch</h5>
+                    <p class="mb-4">언제나 고객님과 함께 하겠습니다</p>
+                    <p class="mb-2"><i class="bi bi-geo-alt text-primary me-2"></i>동탄대로 643 센테라IT타워 311호</p>
+                    <p class="mb-2"><i class="bi bi-envelope-open text-primary me-2"></i>Byplant_@naver.com</p>
+                    <p class="mb-0"><i class="bi bi-telephone text-primary me-2"></i>010 4065 7743</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-uppercase border-start border-5 border-primary ps-3 mb-4">Quick Links</h5>
+                    <div class="d-flex flex-column justify-content-start">
+                        <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
+                        <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
+                        <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Our Services</a>
+                        <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Meet The Team</a>
+                        <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Latest Blog</a>
+                        <a class="text-body" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-uppercase border-start border-5 border-primary ps-3 mb-4">Popular Links</h5>
+                    <div class="d-flex flex-column justify-content-start">
+                        <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
+                        <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
+                        <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Our Services</a>
+                        <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Meet The Team</a>
+                        <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Latest Blog</a>
+                        <a class="text-body" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-uppercase border-start border-5 border-primary ps-3 mb-4">News letter</h5>
+                    <form action="">
+                        <div class="input-group">
+                            <input type="text" class="form-control p-3" placeholder="Your Email">
+                            <button class="btn btn-primary">Sign Up</button>
+                        </div>
+                    </form>
+                    <h6 class="text-uppercase mt-4 mb-3">Follow Us</h6>
+                    <div class="d-flex">
+                        <a class="btn btn-outline-primary btn-square" href="#"><i class="bi bi-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-12 text-center text-body">
+                    <a class="text-body" href="">Terms & Conditions</a>
+                    <span class="mx-1">|</span>
+                    <a class="text-body" href="">Privacy Policy</a>
+                    <span class="mx-1">|</span>
+                    <a class="text-body" href="">Customer Support</a>
+                    <span class="mx-1">|</span>
+                    <a class="text-body" href="">Payments</a>
+                    <span class="mx-1">|</span>
+                    <a class="text-body" href="">Help</a>
+                    <span class="mx-1">|</span>
+                    <a class="text-body" href="">FAQs</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-dark text-white-50 py-4">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-md-0">&copy; <a class="text-white" href="#">BYPLANT</a>. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+	<div class="cd-user-modal"> <!-- this is the entire modal form, including the background -->
+		<div class="cd-user-modal-container"> <!-- this is the container wrapper -->
+			<ul class="cd-switcher">
+				<li><a href="#0">Sign in</a></li>
+				<li><a href="#0">New account</a></li>
+			</ul>
+
+			<div id="cd-login"> <!-- log in form -->
+				<form class="cd-form" id="login">
+					<p class="fieldset">
+						<label class="image-replace cd-email" for="signin-email">E-mail</label>
+						<input class="full-width has-padding has-border" id="signin-email" type="email" placeholder="E-mail">
+						<span class="cd-error-message">Error message here!</span>
+					</p>
+
+					<p class="fieldset">
+						<label class="image-replace cd-password" for="signin-password">Password</label>
+						<input class="full-width has-padding has-border" id="signin-password" type="text"  placeholder="Password">
+						<a href="#0" class="hide-password">Hide</a>
+						<span class="cd-error-message">Error message here!</span>
+					</p>
+
+					<p class="fieldset">
+						<input type="checkbox" id="remember-me" checked>
+						<label for="remember-me">Remember me</label>
+					</p>
+
+					<p class="fieldset">
+						<input class="full-width" type="submit" value="Login">
+					</p>
+				</form>
+				
+				<p class="cd-form-bottom-message"><a href="#0">Forgot your password?</a></p>
+				<!-- <a href="#0" class="cd-close-form">Close</a> -->
+			</div> <!-- cd-login -->
+
+			<div id="cd-signup"> <!-- sign up form -->
+				<form class="cd-form" id="signup">
+                    <p class="fieldset">
+						<label class="image-replace cd-username" for="signup-userid">UserID</label>
+						<input class="full-width has-padding has-border" id="signup-userid" type="text" placeholder="아이디">
+                        <a href="#0" class="idcheck" onclick="checkForDuplicate()">중복 확인</a>
+						<span class="cd-error-message" id="idcheckerror">Error message here!</span>
+					</p>
+					<p class="fieldset">
+						<label class="image-replace cd-username" for="signup-username">Username</label>
+						<input class="full-width has-padding has-border" id="signup-username" type="text" placeholder="이름">
+						<span class="cd-error-message" id="namechecke">Error message here!</span>
+					</p>
+                    <p class="fieldset">
+						<label class="image-replace cd-password" for="signup-password">Password</label>
+						<input class="full-width has-padding has-border" id="signup-password" type="password"  placeholder="Password">
+						<a href="#0" class="hide-password">Hide</a>
+						<span class="cd-error-message">Error message here!</span>
+					</p>
+                    <p class="fieldset">
+						<label class="image-replace cd-password" for="signup-password">Password Checke</label>
+						<input class="full-width has-padding has-border" id="signup-passwordchecke" type="password"  placeholder="Password Checke">
+						<a href="#0" class="hide-password">Hide</a>
+						<span class="cd-error-message"id="passwordchecke">Error message here!</span>
+					</p>
+
+					<p class="fieldset">
+						<label class="image-replace cd-email" for="signup-email">E-mail</label>
+						<input class="full-width has-padding has-border" id="signup-email" type="email" placeholder="E-mail">
+                        <a href="#0" class="idcheck" id="emailcf">이메일 인증</a>
+						<span class="cd-error-message"id="emailformcf">Error message here!</span>
+					</p>
+					<p class="fieldset" id="confirmemail"style="display:none">
+						<label class="image-replace" for="signup-email">E-mail</label>
+						<input class="full-width has-padding has-border" id="emailchecke" type="password" placeholder="인증키를 입력해주세요.">
+						<a href="#0" class="idcheck" id="tokencf">인증키</a>
+						<span class="cd-error-message" id="tokenerror">Error message here!</span>
+					</p>
+					
+                    <p class="fieldset">
+						<label class="image-replace cd-tel" for="signup-password">TEL</label>
+						<input class="full-width has-padding has-border" id="signup-tel" type="text"  placeholder="TEL">
+						<a href="#0" class="idcheck" onclick="">휴대폰 인증</a>
+						<span class="cd-error-message">Error message here!</span>
+					</p>
+
+					<p class="fieldset">
+						<label class="image-replace cd-postnum" for="signup-password">Addr</label>
+						<input class="full-width has-padding has-border" id="signup-postnum" type="text"  placeholder="우편번호" readonly>
+						<a href="#0" class="idcheck" onclick="postnum()">우편번호 찾기</a>
+						<span class="cd-error-message">Error message here!</span>
+					</p>
+
+                    <p class="fieldset">
+						<label class="image-replace cd-addr" for="signup-password">Addr</label>
+						<input class="full-width has-padding has-border" id="signup-addr" type="text"  placeholder="주소" readonly>
+						<span class="cd-error-message">Error message here!</span>
+					</p>
+
+                    <p class="fieldset">
+						<label class="image-replace cd-addr" for="signup-password">Addr</label>
+						<input class="full-width has-padding has-border" id="signup-addrd" type="text"  placeholder="상세 주소">
+						<span class="cd-error-message">Error message here!</span>
+					</p>
+
+					<p class="fieldset">
+						<textarea rows="" cols="" readonly></textarea>
+						<label for="accept-terms"><input type="checkbox" id="accept-terms">위 약관에 동의합니다.</label>
+					</p>
+
+					<p class="fieldset">
+						<input class="full-width has-padding" type="submit" value="Create account">
+					</p>
+				</form>
+
+				<!-- <a href="#0" class="cd-close-form">Close</a> -->
+			</div> <!-- cd-signup -->
+
+			<div id="cd-reset-password"> <!-- reset password form -->
+				<p class="cd-form-message">Lost your password? Please enter your email address. You will receive a link to create a new password.</p>
+
+				<form class="cd-form">
+					<p class="fieldset">
+						<label class="image-replace cd-email" for="reset-email">E-mail</label>
+						<input class="full-width has-padding has-border" id="reset-email" type="email" placeholder="E-mail">
+						<span class="cd-error-message">Error message here!</span>
+					</p>
+
+					<p class="fieldset">
+						<input class="full-width has-padding" type="submit" value="Reset password">
+					</p>
+				</form>
+
+				<p class="cd-form-bottom-message"><a href="#0">Back to log-in</a></p>
+			</div> <!-- cd-reset-password -->
+			<a href="#0" class="cd-close-form">Close</a>
+
+  
+    <!-- Template Javascript -->
+</body>
+  <!-- JavaScript Libraries -->
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    
+<script src="/js/main.js"></script>
+<script src='/js/login.js'></script>
+<script src='/js/cart.js'></script>
+<script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
+</html>
